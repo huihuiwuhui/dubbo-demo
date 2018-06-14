@@ -14,6 +14,7 @@ import org.springframework.context.annotation.ImportResource;
 public class ProviderApplication {
 
     public static void main(String[] args) {
+        System.out.println("Thist is ");
         SpringApplication.run(ProviderApplication.class,args);
     }
 }
